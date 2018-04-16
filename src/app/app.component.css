@@ -1,0 +1,9 @@
+#quote-container{
+  border: 1px solid black;
+  border-radius: 5px;
+  min-height: 300px;
+  width: 500px
+}
+#author{
+  font-style: italic;
+}
