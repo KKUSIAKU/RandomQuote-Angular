@@ -1,13 +1,11 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <div class="d-flex align-items-center h-100">
   <div id="quote-container" class="card d-flex flex-column m-auto">
-    <div class="card-body pt-3">
+    <div class="card-body d-flex flex-column justify-content-center">
       <p>{{quote.quote}}</p>
       <p id="author" class="text-right">~{{quote.author}}~</p>
     </div>
-    <div class="card-footer d-flex justify-content-between">
-      <button class="border-0 p-2">Twitter</button>
-      <button class="border-0 p-2">New quote</button>
+    <div class="card-footer d-flex justify-content-end">
+      <button  (click)="getHeroes()" class="border-0 p-2">New quote</button>
     </div>
   </div>
 </div>

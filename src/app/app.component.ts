@@ -14,8 +14,10 @@ import { QuoteService } from '../quote.servie';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  quote:Quote;
+
   title = 'app';
+  quote:Quote = {quote:"",author:""};
+
   constructor(private quoteService:QuoteService){
     // this.quoteService.getQuote().subscribe(quote => this.quote = quote);
   }
